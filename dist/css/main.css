@@ -6333,8 +6333,32 @@ header .navbar-brand img {
   header .navbar-brand img {
     max-height: 2rem; } }
 
-footer img {
-  max-width: 200px; }
+footer {
+  background: #344B8E;
+  padding-top: 1.5rem;
+  padding-right: 0;
+  padding-bottom: 1.5rem;
+  padding-left: 0; }
+  footer ul li {
+    font-size: 1.2rem;
+    font-weight: 600; }
+    footer ul li a {
+      color: #ffffff; }
+  @media (min-width: 768px) {
+    footer ul {
+      display: flex;
+      justify-content: space-between; }
+      footer ul li {
+        font-size: 1.2rem; }
+        footer ul li:first-child a {
+          padding-left: 0; }
+        footer ul li:last-child a {
+          padding-right: 0; } }
+  @media (min-width: 992px) {
+    footer ul li a {
+      font-size: 1.71rem; }
+    footer ul li a:hover {
+      color: #4080ff; } }
 
 body {
   font-family: Roboto; }

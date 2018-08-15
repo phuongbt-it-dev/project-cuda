@@ -1,3 +1,30 @@
 footer
-	img 
-		max-width: 200px
+	background: #344B8E
+	+pad(1.5rem 0)
+	ul
+		li
+			+fz(1.2rem)
+			+fw(600)
+			a
+				color: #ffffff
+	+media-breakpoint-up(md)
+		ul
+			display: flex
+			justify-content: space-between
+			li
+				+fz(1.2rem)
+				&:first-child
+					a
+						padding-left: 0
+				&:last-child
+					a
+						padding-right: 0
+	+media-breakpoint-up(lg)
+		ul
+			li
+				a
+					+fz(1.71rem)
+				a:hover
+					color: rgba(#4080FF,1)
+
+
